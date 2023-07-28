@@ -9399,7 +9399,7 @@ svg:not(:root) {
 .gallery-thumbs {
   width: 100%;
   overflow: auto;
-  padding: 15px 0 0; 
+  padding: 15px 0 0;
   top: 64px;
   background-color: #fff;
   z-index: 10;
@@ -9413,16 +9413,28 @@ svg:not(:root) {
   color: #fff;
   background-color: #6a7964;
 }
- .gallery-thumbs .thumbs-wrapper .thumb-item {
+
+.gallery-thumbs .thumbs-wrapper .thumb-item {
   padding: 7px 15px;
   border: 1px solid #eaedef;
   border-radius: 5px;
   white-space: nowrap;
-  background-color: #fff; 
+  background-color: #fff;
 }
 
-.thumb-item a:hover{
+.thumb-item a:hover {
   color: #000;
+}
+
+.mc-field-group i {
+  position: absolute;
+  left: 0;
+  top: 49%;
+  transform: translatey(-50%);
+  font-size: 18px;
+}
+#mc_embed_signup .mc-field-group input {
+  padding: 0 110px 0 37px !important;
 }
 /*modal css end*/
 
